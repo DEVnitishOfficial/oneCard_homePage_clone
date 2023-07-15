@@ -118,6 +118,73 @@ list-style: none;
 
  }
 
+
+ /* promise section */
+ .promise{
+    background-color: #000;
+    margin-top: 60px;
+ }
+ .promise> h1{
+    font-size: 64px;
+    line-height: 80px;
+    text-align: center;
+    padding: 80px 80px 0 80px;
+    background-image: linear-gradient(92deg, #217ee6 3%, #3187d5 44%, #69a798 70%, #fcf2a6 95%);
+     -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+ }
+ .promise>p{
+    font-size: 48px ;
+    line-height: 64px;
+    text-align: center;
+    padding: 80px 16px ;
+    color: #fff;
+ }
+
+
+ /* footer section */
+ footer{
+    color: white;
+ }
+ .footer-sec{
+    display: flex;
+    gap: 100px;
+    margin-top: 60px;
+    background-color: #000;
+    padding: 80px;
+   
+}
+ .link-column{
+    flex-direction: column;
+    row-gap: 20px;
+ }
+ .link-column>p{
+    max-width: 400px;
+    flex-wrap: wrap;
+    color: #fff;
+    gap: 20px;
+    margin-left: 100px;
+ }
+
+.news_letter{
+    font-size: 40px;
+}
+.subscribe-btn{
+    background-color: #0093f7;
+    color: white;
+    padding: 10px 60px;
+    border-radius: 10px;
+}
+input{
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.link-column> a{
+    color: #fff;
+}
+
  /* dropdown menu */
  .dropdown_menu{
     display: none;
@@ -159,6 +226,32 @@ list-style: none;
     .dropdown_menu{
         display: block;
     }
+    .promise{
+        background-color: #fff;
+        margin-top: 60px;
+     }
+     .promise>h1{
+        color: rgb(9, 148, 234);
+     }
+     .promise>p{
+        color: #000;
+     }
+     .footer-sec{
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+        text-align: center;
+        margin-top: 60px;
+        background-color: #000;
+        overflow: hidden;
+       
+    }
+    .link-column>p{
+        flex-wrap: wrap;
+        color: #fff;
+        margin-right: 40px;
+     }
+    
 }
 
 @media screen and (max-width:576px){
@@ -171,4 +264,14 @@ list-style: none;
         display: flex;
         justify-content: center;
     }
+    .promise{
+        background-color: #fff;
+        margin-top: 60px;
+     }
+     .promise>h1{
+        color: rgb(9, 148, 234);
+     }
+     .promise>p{
+        color: #000;
+     }
 }
